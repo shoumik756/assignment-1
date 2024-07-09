@@ -77,12 +77,14 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin: 20px 27px 0px 27px;
 }
 
 .banner-content button {
     border-radius: 8px;
     color: white;
+    border: none;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     padding: 18px 22px;
@@ -117,6 +119,9 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 48px;
+    margin: 20px 27px 0px 27px;
+    max-width: 1140px;
 }
 
 .why-web-dev-content h2 {
@@ -130,13 +135,13 @@ main {
 
 .why-web-dev-content p {
     color: rgb(13, 19, 33);
-    margin-bottom: 48px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    
 
 }
 
@@ -147,7 +152,8 @@ main {
     padding: 48px;
     margin-bottom: 30px;
     gap: 50px;
-    border: 10px;
+    border-radius: 10px;
+    background-color: white;
    
 
 }
@@ -186,6 +192,10 @@ main {
     opacity: 0.8;
     cursor: pointer;
 }
+.why-web-dev-row1-content button:hover{
+    background-color: rgb(13, 19, 33);
+    color: white;
+}
 
 .why-web-dev-row1-image img{
     width: 230px;
@@ -198,7 +208,8 @@ main {
     padding: 48px;
     margin-bottom: 30px;
     gap: 50px;
-    border: 10px;
+    border-radius: 10px;
+    background-color: white;
 }
 .why-web-dev-row2 .why-web-dev-row1-image img{
     width: 230px;
@@ -211,5 +222,6 @@ main {
     padding: 48px;
     /* margin-bottom: 30px; */
     gap: 50px;
-    border: 10px;
+    border-radius: 10px;
+    background-color: white;
 }
