@@ -98,6 +98,7 @@ body {
 .banner-content button:hover {
     background-color: rgb(35, 32, 32);
 }
+
 /* Why web dev section style */
 main {
     margin: 80px 150px;
@@ -111,9 +112,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     max-width: 100%;
-    
+
     margin: 0 auto;
 
 }
@@ -238,4 +239,213 @@ main {
     border-radius: 10px;
     background-color: white;
 }
+
 /* My Inspiration section style */
+.section-2 {
+    margin: 80px 0;
+}
+
+.my-inspiration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 103px;
+    gap: 24px;
+}
+
+.my-inspiration h2 {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.my-inspiration p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.my-inspiration-vdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    margin: 48px 80px;
+    padding: 32px;
+    /* width: 100%px; */
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.my-inspiration-vdo iframe {
+    border-radius: 16px;
+}
+
+/* My Current Target style section */
+.my-current-target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 103px;
+    gap: 24px;
+}
+
+.my-current-target h2 {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.my-current-target p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 48px 0px;
+}
+
+.html-card {
+    display: block;
+    padding: 40px;
+    width: 33%;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+    display: block;
+    padding: 40px;
+    width: 33%;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+    display: block;
+    padding: 40px;
+    width: 33%;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.html-card img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.html-card h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.html-card p {
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.html-card a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.css-card img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.css-card h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.css-card p {
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.css-card a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.js-card img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.js-card h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.js-card p {
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.js-card a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
