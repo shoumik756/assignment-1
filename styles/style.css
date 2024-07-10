@@ -291,6 +291,10 @@ main {
 }
 
 /* My Current Target style section */
+.section-3 {
+    margin: 0 0 80px 0;
+}
+
 .my-current-target {
     display: flex;
     justify-content: center;
@@ -351,7 +355,7 @@ main {
     background-color: rgba(255, 223, 0, 0.05);
 }
 
-.html-card img{
+.html-card img {
     width: 56px;
     height: 56px;
     margin-bottom: 24px;
@@ -384,7 +388,7 @@ main {
     text-decoration-line: underline;
 }
 
-.css-card img{
+.css-card img {
     width: 56px;
     height: 56px;
     margin-bottom: 24px;
@@ -417,7 +421,7 @@ main {
     text-decoration-line: underline;
 }
 
-.js-card img{
+.js-card img {
     width: 56px;
     height: 56px;
     margin-bottom: 24px;
@@ -448,4 +452,80 @@ main {
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+}
+
+.support {
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+}
+
+.support h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.support-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.support-field input {
+    position: static;
+    width: 548px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    flex: none;
+    margin: 0px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.support-field button {
+    position: static;
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.support-field button:hover{
+    background-color: rgb(13, 19, 33);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
 }
