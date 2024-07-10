@@ -555,11 +555,13 @@ main {
 }
 
 /* footer section style */
+.footer-bar{
+    background-color: rgba(13, 19, 33, 0.03);
+}
 .main-footer {
     max-width: 1550px;
     margin: 0 auto;
     height: 100px;
-    background-color: rgba(13, 19, 33, 0.03);
     display: flex;
     justify-content: space-between;
     align-items: center;
